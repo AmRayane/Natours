@@ -1,0 +1,57 @@
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    translate: 0 3rem;
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    translate: -10remx;
+  }
+  80% {
+    translate: 1.5rem;
+  }
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    translate: 10rem;
+  }
+  80% {
+    translate: -1.5rem;
+  }
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
+
+@keyframes moveAnimation {
+  0% {
+    translate: 0 -1.5rem;
+  }
+  25% {
+    translate: 1.5rem 0;
+  }
+  50% {
+    translate: 0 1.5rem;
+  }
+  75% {
+    translate: -1.5rem 0;
+  }
+  100% {
+    translate: 0 -1.5rem;
+  }
+}
