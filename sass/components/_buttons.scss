@@ -55,3 +55,24 @@
     animation: moveInButton 0.7s ease 0.75;
   }
 }
+
+.btn-text {
+  font-size: $default-font-size;
+  color: $primary-color;
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
+  border-bottom: 1px solid $primary-color;
+  transition: all 0.2s;
+  &:hover {
+    color: #fff;
+    background-color: $primary-color;
+    box-shadow: 0 1rem 2rem rgba($black-color, 0.15);
+    transform: translateY(-2px);
+  }
+  &:link {
+  }
+
+  &:active {
+  }
+}
