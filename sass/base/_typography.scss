@@ -41,7 +41,7 @@ body {
     $primary-color-dark,
     $primary-color-light
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   &:hover {
     transform: scale(1.05) rotate(3deg);
