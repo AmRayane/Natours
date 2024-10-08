@@ -1,0 +1,41 @@
+.form {
+  &__grop:not(:last-child) {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  &__input {
+    border-radius: 2px;
+    background-color: rgba($white-color, 0.5);
+    color: inherit;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 1.5rem 2rem;
+    display: block;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    border: none;
+
+    &::-webkit-input-placeholder {
+      color: $gray-dark-2;
+    }
+
+    &:focus:invalid {
+      border-bottom: 3px solid $color-secondary-dark;
+    }
+
+    &:focus {
+      outline: none;
+      border-bottom: 3px solid $primary-color;
+      box-shadow: 0 1rem 2rem rgba($black-color, 0.1);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__label {
+    position: absolute;
+  }
+}
